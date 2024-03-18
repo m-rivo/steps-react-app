@@ -1,18 +1,10 @@
-/* 
-const messages = [
-  "Learn React ⚛️",
-  "Apply for jobs 💼",
-  "Invest your new income 🤑",
-];
- */
-
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
-  color: #333;
+  background-color: #333;
 }
 
 .steps {
@@ -84,14 +76,14 @@ h3 {
 }
 
 .close {
-  position: absolute;
+  /* position: absolute; */
   top: 16px;
   right: 16px;
   border: none;
   background: none;
   cursor: pointer;
   font-size: 40px;
-  color: inherit;
+  color: #f7f7f7;
 }
 
 .close:hover {
